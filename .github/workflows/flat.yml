@@ -19,5 +19,5 @@ jobs:
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://data-bs.ch/rues/onlinedaten/online2002_aktuell.csv
-          downloaded_filename: online2002_aktuell.csv
+          http_url: https://data-bs.ch/stata/aue/schall_messung/realtime/schall_aktuell.csv
+          downloaded_filename: schall_aktuell.csv
